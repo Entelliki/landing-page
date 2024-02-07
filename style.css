@@ -1,3 +1,8 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
 .card {
     border: 1px solid #3882f6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
@@ -6,4 +11,110 @@
     width: 180px;
   }
 
-  
+ .top, .little-footer {
+    background-color: #1f2937;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ li {
+    list-style: none;
+ }
+
+ .header h3 {
+    font-size: 24px;
+    color: #F9FAF8
+ }
+
+ .header a, .image-about p {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+ 
+ .image-about h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+ }
+
+ .image-about button {
+    background-color: #3882F6;
+    padding: 10px;
+    width: 130px;
+    border-radius: 8px;
+    border-style: solid;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+ }
+
+ .fake-company {
+    height: 270px;
+    width: 575px;
+ }
+
+ .head-card {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+ }
+
+ .card-section p {
+    color: gray;
+    font-size: 18px;
+ }
+
+ .quote {
+    background-color: #E5E7EB;
+ }
+
+ .quote p {
+    font-size: 36px;
+    font-style: italic;
+ }
+
+ .quote-author {
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+ .big-footer {
+    background-color: #3882F6;
+
+ }
+
+ .time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+ }
+
+ .push-it {
+    font-size: 18px;
+    color: #F9FAF8;
+ }
+
+ .signup button {
+    background-color: #3882F6;
+    padding: 10px;
+    width: 130px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+ }
+
+ .little-footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+ }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
