@@ -1,17 +1,17 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-}
+ }
 
 .card {
-    border: 1px solid #3882f6;
+    border: 5px solid #3882f6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     height: 180px;
     width: 180px;
   }
 
- .top, .little-footer {
+ .top {
     background-color: #1f2937;
  }
 
@@ -21,14 +21,16 @@ body {
 
  li {
     list-style: none;
+    padding: 10px;
  }
 
  .header h3 {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-right: 50px
  }
 
- .header a, .image-about p {
+ .header a, .image-about div {
     font-size: 18px;
     color: #E5E7EB;
  }
@@ -53,7 +55,8 @@ body {
 
  .fake-company {
     height: 270px;
-    width: 575px;
+    width: 625px;
+    margin-right: 220px;
  }
 
  .head-card {
@@ -62,7 +65,7 @@ body {
     color: #1F2937;
  }
 
- .card-section p {
+ .card-section div {
     color: gray;
     font-size: 18px;
  }
@@ -83,7 +86,9 @@ body {
 
  .big-footer {
     background-color: #3882F6;
-
+    padding: 8px;
+    border-radius: 8px;
+    width: 1000px;
  }
 
  .time {
@@ -97,17 +102,6 @@ body {
     color: #F9FAF8;
  }
 
- .signup button {
-    background-color: #3882F6;
-    padding: 10px;
-    width: 130px;
-    border-radius: 8px;
-    border: 2px solid #F9FAF8;
-    color: #F9FAF8;
-    font-weight: bolder;
-    font-size: 18px;
- }
-
  .little-footer {
     font-size: 18px;
     color: #E5E7EB;
@@ -117,4 +111,128 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.image-about {
+    display: flex;
+    text-wrap: wrap;
+    margin-left: 178px;
+}
+
+.image-about ul {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.fake-company {
+    align-self: center;
+    padding: 20px;
+}
+
+.head-card {
+    padding: 70px;
+}
+
+.stuff {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 30px;
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 30px;
+}
+
+.card-three {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 30px;
+}
+
+.card-four {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 30px;
+}
+
+.stuff .text {
+    padding: 8px;
+}
+
+.quote {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.big-foot {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-two {
+    align-self: flex-end;
+    background-color: #3882F6;
+    padding: 10px;
+    width: 130px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.little-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    width: 100%;
+}
+
+
+
+
